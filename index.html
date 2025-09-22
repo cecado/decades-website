@@ -30,7 +30,8 @@
         .hero-text { flex:1; min-width:250px; }
         h1 { margin:0 0 .85rem; font-size: clamp(2rem,6vw,3.25rem); line-height:1.05; letter-spacing:-.02em; color: var(--text); }
         .tagline { margin:0 0 1.75rem; font-size: clamp(1.05rem,2.1vw,1.35rem); line-height:1.4; color:var(--text-dim); max-width:38ch; }
-        .green {color: #34da51; font-weight: 600; }
+        .link { color: var(--accent); text-decoration: none; font-weight: 500; }
+
         /* Mobile layout */
         @media (max-width: 860px) {
             .hero { flex-direction:column; text-align:center; padding-bottom:2.2rem; gap:clamp(1.1rem,7vw,3.25rem); }
@@ -66,7 +67,7 @@
             <div class="hero-text">
                 <h1>Decades: The Music Quiz</h1>
                 <p class="tagline">A fun and interactive music quiz game that tests your knowledge of music through the decades.</p>
-                <a href="privacy">Privacy policy</a>
+                <a class="link" href="privacy">Privacy policy</a>
             </div>
         </div>
     </header>
